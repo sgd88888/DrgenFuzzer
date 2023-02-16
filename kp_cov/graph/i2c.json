@@ -1,0 +1,53 @@
+{
+    "dev": "/dev/i2c-0",
+    "cmd": {
+   
+        "cmd2":1799      
+        
+    },
+    "arg": 
+    {
+
+        "arg2":{
+            "type":"struct",
+            "element":[
+              {
+                   "name":"msgs",
+                   "data_type":"struct pointer",
+                   "value":"any",
+                   "element":[
+                    {
+                        "name":"addr",
+                        "value":"any", 
+                        "data_type":"unsigned short int"                       
+                    },
+                    {
+                        "name":"flags",
+                        "value":"0",  
+                        "data_type":"unsigned short int"                       
+                    },
+                    {
+                        "name":"len",
+                        "value":"any",  
+                        "data_type":"unsigned short int"                       
+                    },
+                    {
+                        "name":"buf",
+                        "value":"any",  
+                        "data_type":"unsigned char*"                       
+                    }
+                   ]    
+              },
+              {
+                   "name":"nmsgs",
+                   "data_type":"unsigned int",
+                   "value":"any"
+              }
+             
+            ]
+            
+            
+        }
+    }   
+    
+}

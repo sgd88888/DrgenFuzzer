@@ -1,0 +1,11 @@
+base="/home/test/Desktop/kp_cov/"
+basedir=base+"graph/"
+idapro_dir="/home/test/Desktop/IDA7.2/idat"#ida pro exe directory
+idafile_path="bbl_preds.py"
+file_path=base+"example/"          #Target .ko file directory
+file_name="i2c-dev_x64.ko"
+predpath=basedir+"pred.txt"
+numtxt=basedir+"num.txt"
+cov_addresspath=base+"cov_address.txt"
+sudo_password="123" 
+file_coverage=base+"coverage.txt"

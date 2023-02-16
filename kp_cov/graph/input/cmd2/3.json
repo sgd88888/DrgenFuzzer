@@ -1,0 +1,16 @@
+{
+    "dev": "/dev/i2c-0", 
+    "cmd": 1799, 
+    "type": [
+        "struct pointer", 
+        "unsigned int"
+    ], 
+    "name": [
+        "msgs", 
+        "nmsgs"
+    ], 
+    "value": [
+        "{36703,0,63207,NULL}", 
+        "29799865"
+    ]
+}

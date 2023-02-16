@@ -1,0 +1,70 @@
+[46877.991011] (make_by_sgd!) <i2cdev_open 0>120
+[46877.991017] (make_by_sgd!) <i2cdev_open 1>121
+[46877.991018] (make_by_sgd!) <i2cdev_open 2>122
+[46877.991019] (make_by_sgd!) <i2cdev_open 3>123
+[46877.991061] (make_by_sgd!) <i2cdev_ioctl 0>162
+[46877.991063] (make_by_sgd!) <i2cdev_ioctl 1>163
+[46877.991064] (make_by_sgd!) <i2cdev_ioctl 2>164
+[46877.991066] (make_by_sgd!) <i2cdev_ioctl 3>165
+[46877.991067] (make_by_sgd!) <i2cdev_ioctl 8>170
+[46877.991069] (make_by_sgd!) <i2cdev_ioctl 9>171
+[46877.991069] (make_by_sgd!) <i2cdev_ioctl 10>172
+[46877.991071] (make_by_sgd!) <i2cdev_ioctl 11>173
+[46877.991071] (make_by_sgd!) <i2cdev_ioctl 12>174
+[46877.991073] (make_by_sgd!) <i2cdev_ioctl 13>175
+[46877.991075] (make_by_sgd!) <i2cdev_ioctl 14>176
+[46877.991076] (make_by_sgd!) <i2cdev_ioctl_rdwr_isra_0 0>50
+[46877.991077] (make_by_sgd!) <i2cdev_ioctl_rdwr_isra_0 1>51
+[46877.991078] (make_by_sgd!) <i2cdev_ioctl_rdwr_isra_0_cold 22>30
+[46877.991079] (make_by_sgd!) <i2cdev_ioctl_rdwr_isra_0 2>52
+[46877.991080] (make_by_sgd!) <i2cdev_ioctl_rdwr_isra_0_cold 0>8
+[46877.991082] (make_by_sgd!) <i2cdev_ioctl_rdwr_isra_0 11>61
+[46877.991083] BUG: kernel NULL pointer dereference, address: 0000000000000000
+[46877.991085] #PF: supervisor read access in kernel mode
+[46877.991087] #PF: error_code(0x0000) - not-present page
+[46877.991088] PGD 0 P4D 0 
+[46877.991091] Oops: 0000 [#19] PREEMPT SMP PTI
+[46877.991093] CPU: 1 PID: 339529 Comm: 0.exe Tainted: G      D    OE     5.17.0-rc8 #1
+[46877.991096] Hardware name: LENOVO 20J6A019CD/20J6A019CD, BIOS R0FET33W (1.13 ) 05/11/2017
+[46877.991097] RIP: 0010:i2cdev_ioctl_rdwr.isra.0.cold+0x12/0x179 [i2c_dev]
+[46877.991103] Code: e9 6c f4 06 00 24 c1 48 c7 c3 ed ff ff ff e8 c2 95 d7 de e9 e4 f9 ff ff e9 54 c4 00 00 c7 c7 33 73 24 c1 89 4d c8 48 89 55 d0 <0f> b6 30 e8 a3 95 d7 de 49 8b 7e 08 48 8b 55 d0 41 0f b7 76 04 49
+[46877.991106] RSP: 0018:ffff9ccca00b7e70 EFLAGS: 00010283
+[46877.991108] RAX: 0000000000000000 RBX: 0000000000000006 RCX: 0000000000000000
+[46877.991109] RDX: 0000000000000000 RSI: ffffffffc1245a2f RDI: ffffffffc1247333
+[46877.991111] RBP: ffff9ccca00b7eb8 R08: 0000000000000040 R09: 0000000000000cc0
+[46877.991112] R10: 0000000000000000 R11: 00000000007b8580 R12: ffff8e61ff132a20
+[46877.991114] R13: ffff8e61d1cde480 R14: ffff8e61ff132a20 R15: ffff8e6202160018
+[46877.991115] FS:  00007f0f19a38540(0000) GS:ffff8e6482640000(0000) knlGS:0000000000000000
+[46877.991117] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[46877.991119] CR2: 0000000000000000 CR3: 000000022a680001 CR4: 00000000003706e0
+[46877.991121] Call Trace:
+[46877.991122]  <TASK>
+[46877.991125]  i2cdev_ioctl+0x11d/0x2f0 [i2c_dev]
+[46877.991129]  __x64_sys_ioctl+0x91/0xc0
+[46877.991133]  do_syscall_64+0x3b/0xc0
+[46877.991136]  entry_SYSCALL_64_after_hwframe+0x44/0xae
+[46877.991139] RIP: 0033:0x7f0f199593ab
+[46877.991141] Code: 0f 1e fa 48 8b 05 e5 7a 0d 00 64 c7 00 26 00 00 00 48 c7 c0 ff ff ff ff c3 66 0f 1f 44 00 00 f3 0f 1e fa b8 10 00 00 00 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d b5 7a 0d 00 f7 d8 64 89 01 48
+[46877.991143] RSP: 002b:00007fff242b6fa8 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[46877.991145] RAX: ffffffffffffffda RBX: 00005614179172b0 RCX: 00007f0f199593ab
+[46877.991147] RDX: 00007fff242b6fd0 RSI: 0000000000000707 RDI: 0000000000000003
+[46877.991148] RBP: 00007fff242b6ff0 R08: 00005614187f02a0 R09: 00007f0f19849070
+[46877.991150] R10: 00007f0f19a31be0 R11: 0000000000000246 R12: 00005614179170e0
+[46877.991151] R13: 00007fff242b70e0 R14: 0000000000000000 R15: 0000000000000000
+[46877.991154]  </TASK>
+[46877.991155] Modules linked in: i2c_dev_x64_kprobes(OE) i2c_dev(OE) ccm rfcomm cmac algif_hash algif_skcipher af_alg bnep binfmt_misc nls_iso8859_1 snd_hda_codec_hdmi snd_ctl_led snd_hda_codec_realtek snd_hda_codec_generic iwlmvm snd_hda_intel snd_intel_dspcfg mac80211 snd_intel_sdw_acpi snd_hda_codec intel_rapl_msr intel_rapl_common snd_hda_core i915 x86_pkg_temp_thermal intel_powerclamp nouveau coretemp mxm_wmi uvcvideo snd_hwdep snd_pcm libarc4 kvm_intel videobuf2_vmalloc videobuf2_memops drm_ttm_helper ttm kvm videobuf2_v4l2 thinkpad_acpi btusb drm_kms_helper nvram btrtl platform_profile ledtrig_audio snd_seq_midi cec snd_seq_midi_event videobuf2_common rc_core mei_hdcp videodev btbcm crct10dif_pclmul btintel i2c_algo_bit ghash_clmulni_intel fb_sys_fops mc btmtk bluetooth syscopyarea iwlwifi sysfillrect joydev input_leds snd_rawmidi snd_seq cfg80211 snd_seq_device sysimgblt intel_wmi_thunderbolt wmi_bmof snd_timer aesni_intel ee1004 snd ecdh_generic ecc mei_me mei intel_pch_thermal
+[46877.991200]  crypto_simd cryptd soundcore serio_raw rapl intel_cstate mac_hid acpi_pad efi_pstore sch_fq_codel parport_pc ppdev drm lp parport ip_tables x_tables autofs4 hid_generic usbhid hid rtsx_pci_sdmmc crc32_pclmul psmouse i2c_i801 i2c_smbus rtsx_pci ahci e1000e i2c_core xhci_pci libahci xhci_pci_renesas wmi video [last unloaded: i2c_dev]
+[46877.991221] CR2: 0000000000000000
+[46877.991222] ---[ end trace 0000000000000000 ]---
+[46877.992373] RIP: 0010:i2cdev_ioctl_rdwr.isra.0.cold+0x12/0x179 [i2c_dev]
+[46877.992379] Code: e9 6c f4 06 00 24 c1 48 c7 c3 ed ff ff ff e8 c2 95 d7 de e9 e4 f9 ff ff e9 54 c4 00 00 c7 c7 33 73 24 c1 89 4d c8 48 89 55 d0 <0f> b6 30 e8 a3 95 d7 de 49 8b 7e 08 48 8b 55 d0 41 0f b7 76 04 49
+[46877.992381] RSP: 0018:ffff9ccc8040be70 EFLAGS: 00010287
+[46877.992383] RAX: 0000000000000000 RBX: 0000000000000001 RCX: 0000000000000000
+[46877.992385] RDX: 0000000000000000 RSI: ffffffffc1245a2f RDI: ffffffffc1247333
+[46877.992386] RBP: ffff9ccc8040beb8 R08: 0000000000000008 R09: 0000000000000cc0
+[46877.992388] R10: 0000000000000000 R11: fffffffffffcb208 R12: ffff8e61f8a01430
+[46877.992389] R13: ffff8e614b4e98f0 R14: ffff8e61f8a01430 R15: ffff8e61efb86c18
+[46877.992390] FS:  00007f0f19a38540(0000) GS:ffff8e6482640000(0000) knlGS:0000000000000000
+[46877.992392] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[46877.992394] CR2: 0000000000000000 CR3: 000000022a680001 CR4: 00000000003706e0
+[46877.992440] (make_by_sgd!) <i2cdev_release 0>80

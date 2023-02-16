@@ -1,0 +1,62 @@
+{
+    "dev": "/dev/snd/controlC0",
+    "cmd": {
+        "cmd1":2147767552,    
+        "cmd2":2172146945,      
+        "cmd3":3226490128          
+    },
+    "arg": 
+    {
+        "arg1": {
+          "type":"int"
+        },
+        "arg2":{
+            "type":"struct",
+            "element":[
+              {
+                   "name":"card",
+                   "data_type":"char" 
+              },
+              {
+                   "name":"pad",
+                   "data_type":"unsigned long long"
+              },
+              {
+                "name":"card",
+                "data_type":"int"
+              },
+              {
+                "name":"id[16]",
+                "data_type":"short"
+              },
+              {
+                "name":"driver[16]",
+                "data_type":"unsigned char"
+              },
+              {
+                "name":"name[32]",
+                "data_type":"unsigned char"
+              },
+              {
+                "name":"longname[32]",
+                "data_type":"unsigned char"
+              },
+              {
+                "name":"reserved_[16]",
+                "data_type":"unsigned char"
+              },
+              {
+                "name":"mixername[80]",
+                "data_type":"unsigned char"
+              },
+              {
+                "name":"components[128]",
+                "data_type":"unsigned char"
+              }
+            ]
+            
+            
+        }
+    }   
+    
+}

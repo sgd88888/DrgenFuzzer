@@ -1,0 +1,746 @@
+i2c_dev_get_by_minor 6
+blocks:0x0000000000000000 0
+0
+blocks:0x000000000000002A 1
+1
+pred:0
+blocks:0x000000000000002C 2
+1
+pred:3
+blocks:0x0000000000000039 3
+2
+pred:0
+pred:2
+blocks:0x0000000000000046 4
+2
+pred:3
+pred:5
+blocks:0x000000000000005A 5
+2
+pred:1
+pred:2
+i2cdev_dev_release 1
+blocks:0x0000000000000060 0
+0
+i2cdev_release 1
+blocks:0x0000000000000080 0
+0
+i2cdev_ioctl_smbus 39
+blocks:0x00000000000000C0 0
+0
+blocks:0x000000000000011C 1
+1
+pred:0
+blocks:0x0000000000000128 2
+1
+pred:1
+blocks:0x000000000000012F 3
+1
+pred:2
+blocks:0x000000000000013F 4
+1
+pred:3
+blocks:0x0000000000000143 5
+2
+pred:2
+pred:4
+blocks:0x0000000000000163 6
+12
+pred:5
+pred:14
+pred:18
+pred:24
+pred:25
+pred:26
+pred:28
+pred:30
+pred:32
+pred:34
+pred:35
+pred:37
+blocks:0x0000000000000176 7
+1
+pred:6
+blocks:0x0000000000000185 8
+2
+pred:3
+pred:4
+blocks:0x000000000000018E 9
+1
+pred:8
+blocks:0x000000000000019C 10
+1
+pred:9
+blocks:0x00000000000001B5 11
+1
+pred:10
+blocks:0x00000000000001BF 12
+4
+pred:10
+pred:11
+pred:20
+pred:22
+blocks:0x0000000000000202 13
+2
+pred:12
+pred:21
+blocks:0x000000000000021D 14
+1
+pred:13
+blocks:0x0000000000000234 15
+1
+pred:14
+blocks:0x000000000000023E 16
+1
+pred:15
+blocks:0x0000000000000248 17
+4
+pred:15
+pred:16
+pred:27
+pred:29
+blocks:0x000000000000026E 18
+1
+pred:17
+blocks:0x0000000000000275 19
+1
+pred:9
+blocks:0x000000000000027B 20
+2
+pred:11
+pred:19
+blocks:0x0000000000000285 21
+1
+pred:20
+blocks:0x0000000000000291 22
+1
+pred:21
+blocks:0x0000000000000296 23
+1
+pred:13
+blocks:0x000000000000029B 24
+1
+pred:23
+blocks:0x00000000000002B3 25
+1
+pred:24
+blocks:0x00000000000002BA 26
+1
+pred:23
+blocks:0x00000000000002E1 27
+1
+pred:26
+blocks:0x00000000000002E6 28
+2
+pred:12
+pred:17
+blocks:0x00000000000002F0 29
+1
+pred:16
+blocks:0x00000000000002F9 30
+1
+pred:29
+blocks:0x0000000000000300 31
+1
+pred:1
+blocks:0x0000000000000302 32
+3
+pred:31
+pred:33
+pred:36
+blocks:0x000000000000030C 33
+1
+pred:0
+blocks:0x0000000000000310 34
+0
+blocks:0x0000000000000335 35
+0
+blocks:0x000000000000035E 36
+1
+pred:8
+blocks:0x0000000000000362 37
+0
+blocks:0x0000000000000387 38
+1
+pred:6
+i2cdev_check_mux_parents 7
+blocks:0x0000000000000390 0
+0
+blocks:0x00000000000003AF 1
+1
+pred:0
+blocks:0x00000000000003B9 2
+1
+pred:1
+blocks:0x00000000000003D1 3
+1
+pred:2
+blocks:0x00000000000003D6 4
+1
+pred:3
+blocks:0x00000000000003E9 5
+2
+pred:0
+pred:1
+blocks:0x00000000000003F9 6
+3
+pred:2
+pred:3
+pred:5
+i2cdev_check 5
+blocks:0x0000000000000410 0
+0
+blocks:0x000000000000042C 1
+1
+pred:0
+blocks:0x0000000000000438 2
+1
+pred:1
+blocks:0x000000000000043D 3
+1
+pred:1
+blocks:0x000000000000044E 4
+1
+pred:0
+i2cdev_write 4
+blocks:0x0000000000000460 0
+0
+blocks:0x00000000000004A0 1
+1
+pred:0
+blocks:0x00000000000004A2 2
+1
+pred:1
+blocks:0x00000000000004BE 3
+2
+pred:0
+pred:2
+name_show 4
+blocks:0x00000000000004F0 0
+0
+blocks:0x0000000000000514 1
+1
+pred:0
+blocks:0x0000000000000530 2
+2
+pred:1
+pred:3
+blocks:0x0000000000000534 3
+1
+pred:0
+i2cdev_check_mux_children 7
+blocks:0x0000000000000540 0
+0
+blocks:0x000000000000055D 1
+1
+pred:0
+blocks:0x0000000000000567 2
+1
+pred:1
+blocks:0x0000000000000573 3
+1
+pred:2
+blocks:0x0000000000000579 4
+1
+pred:2
+blocks:0x000000000000058C 5
+1
+pred:0
+blocks:0x000000000000059E 6
+1
+pred:1
+i2cdev_read 9
+blocks:0x00000000000005B0 0
+0
+blocks:0x00000000000005F5 1
+1
+pred:0
+blocks:0x00000000000005FA 2
+2
+pred:1
+pred:6
+blocks:0x0000000000000610 3
+1
+pred:2
+blocks:0x0000000000000642 4
+2
+pred:3
+pred:7
+blocks:0x000000000000064A 5
+2
+pred:4
+pred:8
+blocks:0x0000000000000658 6
+0
+blocks:0x0000000000000680 7
+1
+pred:2
+blocks:0x0000000000000685 8
+1
+pred:0
+i2cdev_detach_adapter 5
+blocks:0x0000000000000690 0
+0
+blocks:0x000000000000069F 1
+1
+pred:0
+blocks:0x00000000000006A2 2
+1
+pred:0
+blocks:0x00000000000006C1 3
+1
+pred:2
+blocks:0x000000000000071F 4
+2
+pred:2
+pred:3
+i2cdev_open 6
+blocks:0x0000000000000750 0
+0
+blocks:0x0000000000000774 1
+1
+pred:0
+blocks:0x0000000000000795 2
+1
+pred:1
+blocks:0x00000000000007BF 3
+3
+pred:2
+pred:4
+pred:5
+blocks:0x00000000000007C6 4
+1
+pred:0
+blocks:0x00000000000007CD 5
+1
+pred:1
+i2cdev_attach_adapter.part.0 10
+blocks:0x00000000000007E0 0
+0
+blocks:0x0000000000000802 1
+1
+pred:0
+blocks:0x000000000000082B 2
+1
+pred:1
+blocks:0x0000000000000870 3
+1
+pred:2
+blocks:0x00000000000008F0 4
+1
+pred:3
+blocks:0x00000000000008FE 5
+0
+blocks:0x000000000000092D 6
+1
+pred:3
+blocks:0x000000000000097C 7
+1
+pred:1
+blocks:0x0000000000000983 8
+2
+pred:2
+pred:7
+blocks:0x0000000000000F87 9
+1
+pred:0
+i2cdev_attach_adapter 3
+blocks:0x00000000000009A0 0
+0
+blocks:0x00000000000009AF 1
+1
+pred:0
+blocks:0x00000000000009B2 2
+1
+pred:0
+i2cdev_notifier_call 6
+blocks:0x00000000000009C0 0
+0
+blocks:0x00000000000009D2 1
+1
+pred:0
+blocks:0x00000000000009DA 2
+1
+pred:1
+blocks:0x00000000000009E1 3
+3
+pred:1
+pred:2
+pred:4
+blocks:0x00000000000009E3 4
+1
+pred:0
+blocks:0x00000000000009EF 5
+1
+pred:4
+i2cdev_ioctl_rdwr.isra.0 12
+blocks:0x0000000000000A00 0
+0
+blocks:0x0000000000000A38 1
+1
+pred:0
+blocks:0x0000000000000A41 2
+1
+pred:1
+blocks:0x0000000000000A5B 3
+1
+pred:2
+blocks:0x0000000000000A61 4
+1
+pred:3
+blocks:0x0000000000000A65 5
+1
+pred:4
+blocks:0x0000000000000A76 6
+2
+pred:5
+pred:6
+blocks:0x0000000000000A87 7
+3
+pred:4
+pred:6
+pred:9
+blocks:0x0000000000000A97 8
+2
+pred:7
+pred:10
+blocks:0x0000000000000AA9 9
+1
+pred:1
+blocks:0x0000000000000ABB 10
+1
+pred:0
+blocks:0x0000000000000F9F 11
+1
+pred:2
+i2cdev_ioctl 47
+blocks:0x0000000000000AD0 0
+0
+blocks:0x0000000000000B0E 1
+2
+pred:0
+pred:23
+blocks:0x0000000000000B14 2
+1
+pred:1
+blocks:0x0000000000000B20 3
+1
+pred:2
+blocks:0x0000000000000B22 4
+1
+pred:3
+blocks:0x0000000000000B2E 5
+1
+pred:4
+blocks:0x0000000000000B52 6
+17
+pred:5
+pred:10
+pred:12
+pred:13
+pred:14
+pred:19
+pred:22
+pred:24
+pred:25
+pred:26
+pred:27
+pred:29
+pred:34
+pred:36
+pred:37
+pred:38
+pred:43
+blocks:0x0000000000000B65 7
+1
+pred:6
+blocks:0x0000000000000B70 8
+1
+pred:3
+blocks:0x0000000000000B7C 9
+1
+pred:8
+blocks:0x0000000000000B88 10
+1
+pred:9
+blocks:0x0000000000000BA8 11
+1
+pred:10
+blocks:0x0000000000000BB5 12
+1
+pred:11
+blocks:0x0000000000000BC7 13
+1
+pred:12
+blocks:0x0000000000000BE1 14
+1
+pred:13
+blocks:0x0000000000000BF4 15
+1
+pred:1
+blocks:0x0000000000000C00 16
+1
+pred:15
+blocks:0x0000000000000C02 17
+1
+pred:16
+blocks:0x0000000000000C0E 18
+1
+pred:17
+blocks:0x0000000000000C1C 19
+1
+pred:18
+blocks:0x0000000000000C2B 20
+1
+pred:16
+blocks:0x0000000000000C33 21
+1
+pred:20
+blocks:0x0000000000000C40 22
+1
+pred:21
+blocks:0x0000000000000C4F 23
+0
+blocks:0x0000000000000C7B 24
+2
+pred:0
+pred:23
+blocks:0x0000000000000C9E 25
+3
+pred:4
+pred:9
+pred:20
+blocks:0x0000000000000CAA 26
+1
+pred:18
+blocks:0x0000000000000CB9 27
+1
+pred:5
+blocks:0x0000000000000CD7 28
+1
+pred:15
+blocks:0x0000000000000CE0 29
+1
+pred:28
+blocks:0x0000000000000CFD 30
+2
+pred:8
+pred:17
+blocks:0x0000000000000D06 31
+1
+pred:30
+blocks:0x0000000000000D0D 32
+1
+pred:31
+blocks:0x0000000000000D13 33
+2
+pred:31
+pred:32
+blocks:0x0000000000000D1B 34
+2
+pred:33
+pred:44
+blocks:0x0000000000000D27 35
+1
+pred:2
+blocks:0x0000000000000D31 36
+1
+pred:35
+blocks:0x0000000000000D40 37
+1
+pred:35
+blocks:0x0000000000000D4F 38
+5
+pred:11
+pred:21
+pred:28
+pred:30
+pred:32
+blocks:0x0000000000000D5B 39
+1
+pred:33
+blocks:0x0000000000000D6F 40
+1
+pred:39
+blocks:0x0000000000000D79 41
+1
+pred:40
+blocks:0x0000000000000D82 42
+1
+pred:41
+blocks:0x0000000000000D8E 43
+2
+pred:42
+pred:45
+blocks:0x0000000000000D9A 44
+4
+pred:39
+pred:40
+pred:41
+pred:42
+blocks:0x0000000000000DB6 45
+1
+pred:44
+blocks:0x0000000000000DB8 46
+1
+pred:6
+compat_i2cdev_ioctl 21
+blocks:0x0000000000000DC0 0
+0
+blocks:0x0000000000000DF7 1
+1
+pred:0
+blocks:0x0000000000000E03 2
+1
+pred:1
+blocks:0x0000000000000E0F 3
+1
+pred:2
+blocks:0x0000000000000E14 4
+10
+pred:3
+pred:6
+pred:7
+pred:8
+pred:14
+pred:15
+pred:16
+pred:17
+pred:18
+pred:20
+blocks:0x0000000000000E27 5
+1
+pred:4
+blocks:0x0000000000000E36 6
+1
+pred:0
+blocks:0x0000000000000E56 7
+1
+pred:6
+blocks:0x0000000000000E64 8
+1
+pred:7
+blocks:0x0000000000000E6F 9
+1
+pred:8
+blocks:0x0000000000000E8B 10
+1
+pred:9
+blocks:0x0000000000000E99 11
+1
+pred:10
+blocks:0x0000000000000E9E 12
+1
+pred:13
+blocks:0x0000000000000ECE 13
+2
+pred:11
+pred:12
+blocks:0x0000000000000EEC 14
+1
+pred:13
+blocks:0x0000000000000F00 15
+1
+pred:2
+blocks:0x0000000000000F21 16
+1
+pred:1
+blocks:0x0000000000000F45 17
+1
+pred:16
+blocks:0x0000000000000F63 18
+2
+pred:10
+pred:12
+blocks:0x0000000000000F76 19
+1
+pred:4
+blocks:0x0000000000000F7B 20
+1
+pred:9
+i2cdev_attach_adapter.part.0.cold 2
+blocks:0x0000000000000F87 0
+0
+blocks:0x0000000000000983 1
+1
+pred:0
+i2cdev_ioctl_rdwr.isra.0.cold 23
+blocks:0x0000000000000F9F 0
+0
+blocks:0x0000000000000FE3 1
+1
+pred:0
+blocks:0x0000000000000FEE 2
+2
+pred:1
+pred:19
+blocks:0x000000000000100F 3
+1
+pred:2
+blocks:0x0000000000001035 4
+2
+pred:3
+pred:8
+blocks:0x000000000000103E 5
+1
+pred:4
+blocks:0x0000000000001043 6
+1
+pred:5
+blocks:0x0000000000001092 7
+1
+pred:6
+blocks:0x0000000000001098 8
+4
+pred:4
+pred:5
+pred:6
+pred:7
+blocks:0x00000000000010B5 9
+1
+pred:8
+blocks:0x00000000000010BA 10
+1
+pred:0
+blocks:0x00000000000010D0 11
+1
+pred:10
+blocks:0x00000000000010D5 12
+4
+pred:11
+pred:14
+pred:15
+pred:16
+blocks:0x00000000000010E3 13
+1
+pred:1
+blocks:0x00000000000010E8 14
+1
+pred:11
+blocks:0x00000000000010F2 15
+1
+pred:14
+blocks:0x00000000000010F9 16
+1
+pred:15
+blocks:0x0000000000001103 17
+1
+pred:16
+blocks:0x0000000000001108 18
+2
+pred:10
+pred:17
+blocks:0x0000000000001113 19
+1
+pred:18
+blocks:0x0000000000000A87 20
+2
+pred:2
+pred:9
+blocks:0x0000000000000A61 21
+2
+pred:12
+pred:13
+blocks:0x0000000000000A41 22
+1
+pred:18

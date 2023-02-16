@@ -1,0 +1,26 @@
+{
+    "dev": "e1000",
+    "cmd": {
+        "SIOCGMIIPHY":35143,
+        "SIOCGMIIREG":35144,
+        "SIOCSMIIREG":35145
+    },
+    "type": [
+    {
+        "arg1": {
+            "type": {
+                "addr": "int",
+                "data": "unsigned int"
+            }
+        },
+    
+        "arg2":{
+            "type": {
+                "addr": "int",
+                "data": "unsigned int"
+            }
+                },
+        "arg3":"int"
+    }   
+    ]
+}

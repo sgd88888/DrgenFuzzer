@@ -1,0 +1,1 @@
+make CONFIG_E1000=m -C /usr/src/linux-5.17-rc8 M=/usr/src/linux-5.17-rc8/drivers/net/ethernet/intel/e1000 modules

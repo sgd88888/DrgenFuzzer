@@ -1,0 +1,26 @@
+{
+    "dev": "",
+    "cmd": {
+        "IOCINIT": 1,
+        "IOCGREG": 2,
+        "IOCWREG": 3
+    },
+    "type": [
+    {
+        "arg1": {
+            "type": {
+                "addr": "int",
+                "data": "unsigned int"
+            }
+        },
+    
+        "arg2":{
+            "type": {
+                "addr": "int",
+                "data": "unsigned int"
+            }
+                },
+        "arg3":"int"
+    }   
+    ]
+}

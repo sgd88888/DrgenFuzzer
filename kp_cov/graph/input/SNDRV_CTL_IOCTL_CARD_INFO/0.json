@@ -1,0 +1,28 @@
+{
+    "dev": "/dev/snd/controlC0", 
+    "cmd": 2172146945, 
+    "type": [
+        "int", 
+        "int", 
+        "int", 
+        "unsigned char", 
+        "unsigned char", 
+        "unsigned char", 
+        "unsigned char", 
+        "unsigned char", 
+        "unsigned char", 
+        "unsigned char"
+    ], 
+    "value": [
+        "card:178391537", 
+        "pad:-842850552", 
+        "card:-1187128209", 
+        "id[16]:SBsXbxNnhClOuiod", 
+        "driver[16]:LXEfTY", 
+        "name[32]:Y", 
+        "longname[32]:evVDpkJehzTFwjeJKBoUNdGHM", 
+        "reserved_[16]:mZDT", 
+        "mixername[80]:xcrOUpXDLAXoSRufQQmHfiwLUEHPuNOaUPUqgKqOtMXcSopnrrNEcjYg", 
+        "components[128]:tvCqogG"
+    ]
+}
