@@ -1,7 +1,7 @@
-# #基于适应度和输入约束模型的内核驱动漏洞挖掘
-# DrgenFuzzer
+# DrgenFuzzer：基于适应度和输入约束模型的内核驱动漏洞挖掘
 
-#
+
+
 将待测ko（XXX.ko）放入example文件夹，并重命名为XXX_x64.ko
 filepath.py处修改file_name
 kprobes/Makefile处修改obj-m
